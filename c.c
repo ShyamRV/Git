@@ -12,10 +12,13 @@ int main() {
 
     // Calculate sum
     sum = num1 + num2;
+    difference = num1 - num2;
 
-    // Print result
+    // Print results
     printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+    printf("The difference of %d and %d is: %d\n", num1, num2, difference);
 
+ 
     return 0;
 }
 
